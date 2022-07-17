@@ -9,7 +9,4 @@
 
 #Others
 	execute as @a at @s run function lightium:player/tick
-	execute positioned 0 80 0 run spreadplayers 0 0 10 20 false @e[type=!player,type=!armor_stand,type=!marker,type=!wither,type=!slime,distance=..12]
-	execute as @a[x=986,y=71,z=997,distance=..3] at @s if block ~ ~-1 ~ slime_block run effect give @s jump_boost 1 20 true
-	execute as @e[tag=lightium.text.gold] at @s run function lightium:utils/money_text
-	execute as @e[type=item] run function lightium:utils/tick_item
+	execute as @e[type=item,tag=!lightium.checked] run function lightium:utils/tick_item

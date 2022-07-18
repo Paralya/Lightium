@@ -4,22 +4,14 @@ tag Stoupy51 add convention.debug
 scoreboard objectives add lightium.data dummy
 scoreboard objectives add lightium.timestamp dummy
 scoreboard objectives add lightium.teleportation dummy
-scoreboard objectives add lightium.foodLevel food
 scoreboard objectives add lightium.leave minecraft.custom:minecraft.leave_game
 
-scoreboard objectives add lightium.mined.gold_ore minecraft.mined:minecraft.gold_ore
-scoreboard objectives add lightium.mined.diamond_ore minecraft.mined:minecraft.diamond_ore
-scoreboard objectives add lightium.mined.obsidian minecraft.mined:minecraft.obsidian
-
-scoreboard objectives add lightium.trigger.manual trigger
+scoreboard objectives add lightium.trigger.help trigger
 scoreboard objectives add lightium.trigger.spawn trigger
 
-scoreboard objectives add lightium.money dummy {"text":"Classement en €","color":"gold"}
-#scoreboard objectives setdisplay sidebar lightium.money
-scoreboard objectives setdisplay list lightium.money
-
-team add lightium.team
-team modify lightium.team friendlyFire false
+scoreboard objectives add lightium.health health
+scoreboard objectives modify lightium.health rendertype hearts
+scoreboard objectives setdisplay belowName lightium.health
 
 scoreboard players set Lightium load.status 1000
 
@@ -33,15 +25,15 @@ scoreboard players set Lightium load.status 1000
 data modify storage lightium:main Paralya set value '[{"text":"[","color":"dark_aqua"},{"text":"Paralya","color":"aqua"},{"text":"]","color":"dark_aqua"}]'
 
 gamerule spectatorsGenerateChunks false
-gamerule doImmediateRespawn true
-gamerule doTraderSpawning false
+gamerule doImmediateRespawn false
+gamerule doTraderSpawning true
 gamerule doDaylightCycle true
-gamerule doWeatherCycle false
-gamerule keepInventory true
-gamerule doMobSpawning false
-gamerule mobGriefing false
-gamerule fallDamage false
-gamerule doInsomnia false
+gamerule doWeatherCycle true
+gamerule keepInventory false
+gamerule doMobSpawning true
+gamerule mobGriefing true
+gamerule fallDamage true
+gamerule doInsomnia true
 gamerule spawnRadius 0
 
 

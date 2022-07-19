@@ -1,10 +1,10 @@
 
 scoreboard players operation #id lightium.id = @s lightium.trigger.merci
 scoreboard players operation #id lightium.id *= #-1 lightium.data
-execute if score #id lightium.id matches 10.. run scoreboard players remove #id lightium.id 10
-execute if score #id lightium.id matches 100.. run scoreboard players remove #id lightium.id 100
-execute if score #id lightium.id matches 1000.. run scoreboard players remove #id lightium.id 1000
-execute if score #id lightium.id matches 10000.. run scoreboard players remove #id lightium.id 10000
+execute if score #id lightium.id matches 10..99 run scoreboard players remove #id lightium.id 10
+execute if score #id lightium.id matches 100..999 run scoreboard players remove #id lightium.id 100
+execute if score #id lightium.id matches 1000..9999 run scoreboard players remove #id lightium.id 1000
+execute if score #id lightium.id matches 10000..99999 run scoreboard players remove #id lightium.id 10000
 execute if score #id lightium.id matches 100000.. run scoreboard players remove #id lightium.id 100000
 
 tag @a[predicate=lightium:has_id] add lightium.temp_2

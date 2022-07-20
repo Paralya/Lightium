@@ -1,0 +1,164 @@
+{
+	"type": "minecraft:gift",
+	"pools": [
+		{
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 16,
+				"max": 32
+			},
+			"entries": [
+				{
+					"weight": 12,
+					"type": "minecraft:item",
+					"name": "minecraft:iron_ingot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 16
+							}
+						}
+					]
+				},
+				{
+					"weight": 2,
+					"type": "minecraft:item",
+					"name": "minecraft:diamond",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"weight": 6,
+					"type": "minecraft:item",
+					"name": "minecraft:copper_ingot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 32
+							}
+						}
+					]
+				},
+				{
+					"weight": 6,
+					"type": "minecraft:item",
+					"name": "minecraft:gold_ingot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 16
+							}
+						}
+					]
+				},
+				{
+					"weight": 2,
+					"type": "minecraft:loot_table",
+					"name": "simplenergy:i/simplunium_ingot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"weight": 10,
+					"type": "minecraft:loot_table",
+					"name": "stardust:i/stardust_ingot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 16
+							}
+						}
+					]
+				},
+				{
+					"weight": 3,
+					"type": "minecraft:loot_table",
+					"name": "mechanization:base/tin_ingot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 8
+							}
+						}
+					]
+				},
+				{
+					"weight": 2,
+					"type": "minecraft:loot_table",
+					"name": "mechanization:base/steel_ingot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 8
+							}
+						}
+					]
+				},
+				{
+					"weight": 1,
+					"type": "minecraft:loot_table",
+					"name": "mechanization:base/titanium_ingot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"weight": 1,
+					"type": "minecraft:loot_table",
+					"name": "mechanization:base/uranium_ingot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

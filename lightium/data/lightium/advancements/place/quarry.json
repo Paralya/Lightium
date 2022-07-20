@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"nbt": "{stardust:{quarry:1b}}"
+				},
+				"location": {
+					"dimension": "minecraft:overworld"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "lightium:advancements/place/quarry"
+	}
+}

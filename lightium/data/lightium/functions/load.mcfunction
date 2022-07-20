@@ -3,6 +3,7 @@ tag Stoupy51 add convention.debug
 
 scoreboard objectives add lightium.id dummy
 scoreboard objectives add lightium.data dummy
+scoreboard objectives add lightium.first_timestamp dummy
 scoreboard objectives add lightium.timestamp dummy
 scoreboard objectives add lightium.teleportation dummy
 scoreboard objectives add lightium.leave minecraft.custom:minecraft.leave_game

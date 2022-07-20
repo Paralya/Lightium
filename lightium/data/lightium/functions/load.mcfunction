@@ -32,6 +32,7 @@ scoreboard players set Lightium load.status 1000
 #define score_holder #temp
 #define score_holder #pos
 
+data modify storage lightium:main ParalyaWarning set value '[{"text":"[ParalyaError]","color":"gold"}]'
 data modify storage lightium:main ParalyaError set value '[{"text":"[ParalyaError]","color":"red"}]'
 data modify storage lightium:main Paralya set value '[{"text":"[","color":"dark_aqua"},{"text":"Paralya","color":"aqua"},{"text":"]","color":"dark_aqua"}]'
 #tellraw @a ["\n",{"nbt":"Paralya","storage":"lightium:main","interpret":true},{"text":" Souhaitez tous la bienvenue à "},{"selector":"@s","color":"aqua"},{"text":" !\nN'oublie pas de remercier le joueur de ton choix de l'invitation pour avoir des récompenses avec /merci"}]

@@ -6,6 +6,7 @@ scoreboard objectives add lightium.data dummy
 scoreboard objectives add lightium.first_timestamp dummy
 scoreboard objectives add lightium.timestamp dummy
 scoreboard objectives add lightium.teleportation dummy
+scoreboard objectives add lightium.position dummy
 scoreboard objectives add lightium.leave minecraft.custom:minecraft.leave_game
 scoreboard objectives add lightium.home.x dummy
 scoreboard objectives add lightium.home.y dummy

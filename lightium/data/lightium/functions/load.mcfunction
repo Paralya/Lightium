@@ -34,10 +34,6 @@ scoreboard players set Lightium load.status 1000
 #define score_holder #temp
 #define score_holder #pos
 
-data modify storage lightium:main ParalyaWarning set value '[{"text":"[ParalyaError]","color":"gold"}]'
-data modify storage lightium:main ParalyaError set value '[{"text":"[ParalyaError]","color":"red"}]'
-data modify storage lightium:main Paralya set value '[{"text":"[","color":"dark_aqua"},{"text":"Paralya","color":"aqua"},{"text":"]","color":"dark_aqua"}]'
-#tellraw @a ["\n",{"nbt":"Paralya","storage":"lightium:main","interpret":true},{"text":" Souhaitez tous la bienvenue à "},{"selector":"@s","color":"aqua"},{"text":" !\nN'oublie pas de remercier le joueur de ton choix de l'invitation pour avoir des récompenses avec /merci"}]
 
 worldborder set 20000
 gamerule spectatorsGenerateChunks false
@@ -53,8 +49,17 @@ gamerule doInsomnia true
 gamerule spawnRadius 0
 
 
-##Signs
-function lightium:signs/replace
+##Storage
+#tellraw @a ["\n",{"nbt":"Paralya","storage":"lightium:main","interpret":true},{"text":" Souhaitez tous la bienvenue à "},{"selector":"@s","color":"aqua"},{"text":" !\nN'oublie pas de remercier le joueur de ton choix de l'invitation pour avoir des récompenses avec /merci"}]
+data modify storage lightium:main ParalyaWarning set value '[{"text":"[ParalyaError]","color":"gold"}]'
+data modify storage lightium:main ParalyaError set value '[{"text":"[ParalyaError]","color":"red"}]'
+data modify storage lightium:main Paralya set value '[{"text":"[","color":"dark_aqua"},{"text":"Paralya","color":"aqua"},{"text":"]","color":"dark_aqua"}]'
+
+data modify storage lightium:main CustomItemTicket set value {id:"minecraft:command_block",tag:{display:{Name:'{"extra":[{"text":"Custom Item Ticket"}],"text":""}',Lore:['{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Item utilisé pour les échanges"}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"d\'items venant des data packs"}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"situés aux villageois du spawn"}],"text":""}','{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Lightium"}],"text":""}']}},Count:1b}
+
+
+##Villagers
+function lightium:villagers/replace
 
 scoreboard players set #-1 lightium.data -1
 scoreboard players set #8 lightium.data 8

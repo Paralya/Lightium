@@ -1,5 +1,6 @@
 
-##Buy Heavy Workbench
+##Buy
+#Heavy Workbench
 data modify storage lightium:main Recipe set from storage lightium:main BaseRecipe
 loot replace block -30000000 14 1610 container.0 loot lightium:custom_item_ticket
 data modify storage lightium:main Recipe.buy set from block -30000000 14 1610 Items[0]
@@ -9,7 +10,7 @@ data modify storage lightium:main Recipe.sell set from block -30000000 14 1610 I
 data modify storage lightium:main Recipe.sell.Count set value 1b
 data modify entity @s Offers.Recipes append from storage lightium:main Recipe
 
-##Buy Multimeter
+#Multimeter
 data modify storage lightium:main Recipe set from storage lightium:main BaseRecipe
 loot replace block -30000000 14 1610 container.0 loot lightium:custom_item_ticket
 data modify storage lightium:main Recipe.buy set from block -30000000 14 1610 Items[0]
@@ -19,7 +20,7 @@ data modify storage lightium:main Recipe.sell set from block -30000000 14 1610 I
 data modify storage lightium:main Recipe.sell.Count set value 1b
 data modify entity @s Offers.Recipes append from storage lightium:main Recipe
 
-##Buy Wrench
+#Wrench
 data modify storage lightium:main Recipe set from storage lightium:main BaseRecipe
 loot replace block -30000000 14 1610 container.0 loot lightium:custom_item_ticket
 data modify storage lightium:main Recipe.buy set from block -30000000 14 1610 Items[0]
@@ -29,12 +30,52 @@ data modify storage lightium:main Recipe.sell set from block -30000000 14 1610 I
 data modify storage lightium:main Recipe.sell.Count set value 1b
 data modify entity @s Offers.Recipes append from storage lightium:main Recipe
 
-##Buy Life Crystal Block
+#Life Crystal Block
 data modify storage lightium:main Recipe set from storage lightium:main BaseRecipe
 loot replace block -30000000 14 1610 container.0 loot lightium:custom_item_ticket
 data modify storage lightium:main Recipe.buy set from block -30000000 14 1610 Items[0]
 data modify storage lightium:main Recipe.buy.Count set value 8b
 loot replace block -30000000 14 1610 container.0 loot stardust:i/life_crystal_block
+data modify storage lightium:main Recipe.sell set from block -30000000 14 1610 Items[0]
+data modify storage lightium:main Recipe.sell.Count set value 1b
+data modify entity @s Offers.Recipes append from storage lightium:main Recipe
+
+#Stardust Apple
+data modify storage lightium:main Recipe set from storage lightium:main BaseRecipe
+loot replace block -30000000 14 1610 container.0 loot lightium:custom_item_ticket
+data modify storage lightium:main Recipe.buy set from block -30000000 14 1610 Items[0]
+data modify storage lightium:main Recipe.buy.Count set value 16b
+loot replace block -30000000 14 1610 container.0 loot stardust:i/stardust_apple
+data modify storage lightium:main Recipe.sell set from block -30000000 14 1610 Items[0]
+data modify storage lightium:main Recipe.sell.Count set value 1b
+data modify entity @s Offers.Recipes append from storage lightium:main Recipe
+
+#Lucky Artifact Bag
+data modify storage lightium:main Recipe set from storage lightium:main BaseRecipe
+loot replace block -30000000 14 1610 container.0 loot lightium:custom_item_ticket
+data modify storage lightium:main Recipe.buy set from block -30000000 14 1610 Items[0]
+data modify storage lightium:main Recipe.buy.Count set value 8b
+loot replace block -30000000 14 1610 container.0 loot stardust:i/lucky_artifact_bag
+data modify storage lightium:main Recipe.sell set from block -30000000 14 1610 Items[0]
+data modify storage lightium:main Recipe.sell.Count set value 1b
+data modify entity @s Offers.Recipes append from storage lightium:main Recipe
+
+#Item Magnet
+data modify storage lightium:main Recipe set from storage lightium:main BaseRecipe
+loot replace block -30000000 14 1610 container.0 loot lightium:custom_item_ticket
+data modify storage lightium:main Recipe.buy set from block -30000000 14 1610 Items[0]
+data modify storage lightium:main Recipe.buy.Count set value 16b
+loot replace block -30000000 14 1610 container.0 loot stardust:i/item_magnet
+data modify storage lightium:main Recipe.sell set from block -30000000 14 1610 Items[0]
+data modify storage lightium:main Recipe.sell.Count set value 1b
+data modify entity @s Offers.Recipes append from storage lightium:main Recipe
+
+#Stardust Dungeon Key
+data modify storage lightium:main Recipe set from storage lightium:main BaseRecipe
+loot replace block -30000000 14 1610 container.0 loot lightium:custom_item_ticket
+data modify storage lightium:main Recipe.buy set from block -30000000 14 1610 Items[0]
+data modify storage lightium:main Recipe.buy.Count set value 12b
+loot replace block -30000000 14 1610 container.0 loot stardust:i/stardust_dungeon_key
 data modify storage lightium:main Recipe.sell set from block -30000000 14 1610 Items[0]
 data modify storage lightium:main Recipe.sell.Count set value 1b
 data modify entity @s Offers.Recipes append from storage lightium:main Recipe

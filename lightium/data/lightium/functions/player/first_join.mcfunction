@@ -1,5 +1,5 @@
 
-#tp @s 0 169 0 180 0
+function lightium:player/teleport_spawn
 
 scoreboard players add #next_id lightium.id 1
 scoreboard players operation @s lightium.id = #next_id lightium.id

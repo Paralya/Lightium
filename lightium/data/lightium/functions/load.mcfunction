@@ -7,11 +7,15 @@ scoreboard objectives add lightium.first_timestamp dummy
 scoreboard objectives add lightium.timestamp dummy
 scoreboard objectives add lightium.teleportation dummy
 scoreboard objectives add lightium.position dummy
+scoreboard objectives add lightium.last_day dummy
+scoreboard objectives add lightium.daily_streak dummy
 scoreboard objectives add lightium.leave minecraft.custom:minecraft.leave_game
 
 scoreboard objectives add lightium.trigger.help trigger
 scoreboard objectives add lightium.trigger.spawn trigger
 scoreboard objectives add lightium.trigger.merci trigger
+scoreboard objectives add lightium.trigger.daily_streak trigger
+scoreboard objectives add lightium.trigger.anciennete trigger
 
 scoreboard objectives add lightium.remaining.merci dummy
 scoreboard objectives add lightium.count.merci dummy

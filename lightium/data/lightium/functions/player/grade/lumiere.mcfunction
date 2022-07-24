@@ -11,4 +11,5 @@ tellraw @s ["",{"nbt":"Paralya","storage":"lightium:main","interpret":true},{"te
 tellraw @s [{"text":" - Possibilité d'avoir 3 homes !"}]
 tellraw @s [{"text":" - Vous gagnez l'usage de 3 /merci !"}]
 tellraw @s [{"text":" - /kit lumiere (toutes les 24 heures)"}]
+tellraw @s [{"text":" - Choix de doubler une récompense journalière une fois par cycle"}]
 tellraw @s ""

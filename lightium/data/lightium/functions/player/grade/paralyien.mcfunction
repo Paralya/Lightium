@@ -8,7 +8,9 @@ team join lightium.paralyien @s
 scoreboard players add @s lightium.remaining.merci 4
 
 tellraw @s ["",{"nbt":"Paralya","storage":"lightium:main","interpret":true},{"text":" Tu gagnes donc les avantages suivants :"}]
-tellraw @s [{"text":" - Possibilité d'avoir 5 homes !"}]
-tellraw @s [{"text":" - Vous gagnez l'usage de 5 /merci !"}]
+tellraw @s [{"text":" - Possibilité d'avoir 5 homes"}]
+tellraw @s [{"text":" - Vous gagnez l'usage de 5 /merci"}]
 tellraw @s [{"text":" - /kit paralyien (toutes les 24 heures)"}]
+tellraw @s [{"text":" - Double des récompenses journalières"}]
+tellraw @s [{"text":" - Pouvoir parrainer un joueur de son choix pour une semaine tous les mois, cette personne aura les même avantages que le grade Éclaireur"}]
 tellraw @s ""

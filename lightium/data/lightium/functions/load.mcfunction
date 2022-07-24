@@ -13,6 +13,7 @@ scoreboard objectives add lightium.trigger.help trigger
 scoreboard objectives add lightium.trigger.spawn trigger
 scoreboard objectives add lightium.trigger.merci trigger
 
+scoreboard objectives add lightium.remaining.merci dummy
 scoreboard objectives add lightium.count.merci dummy
 scoreboard objectives add lightium.count.vote dummy
 

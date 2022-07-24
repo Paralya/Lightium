@@ -17,6 +17,7 @@ summon villager 12 78 -13 {Tags:["lightium.villager","lightium.villager.energy_s
 execute as @e[tag=lightium.villager.energy_buy] run function lightium:villagers/type/energy_buy
 execute as @e[tag=lightium.villager.energy_sell] run function lightium:villagers/type/energy_sell
 
+summon villager -8 78 -8 {Tags:["lightium.villager","lightium.ah"],CustomName:'{"text":"Accéder au /ah"}',Rotation:[-135.0f,0.0f],NoGravity:1b,Invulnerable:1b,VillagerData:{level:99,type:"taiga"}}
 
 
 effect give @e[tag=lightium.villager] resistance 999999 255 true

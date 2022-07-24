@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond"
+		},
+		"title": "Programme d'ancienneté",
+		"description": "Ici est affiché les niveaux de votre programme d'ancienneté.",
+		"announce_to_chat": false,
+		"show_toast": false,
+		"frame": "task",
+		"hidden": false,
+		"background": "minecraft:textures/block/diamond_block.png"
+	},
+	"criteria": {
+		"impossible": {
+			"trigger": "tick"
+		}
+	}
+}

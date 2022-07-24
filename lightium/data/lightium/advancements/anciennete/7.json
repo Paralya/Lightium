@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrel",
+			"nbt": "{CustomModelData:2012000}"
+		},
+		"title": "Merci pour l'intérêt porté",
+		"description": "Ayez au moins 7 jours d'ancienneté sur le serveur",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"unlock": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "lightium:advancements/anciennete/7"
+}

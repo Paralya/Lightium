@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:gold_ingot"
+		},
+		"title": "Sympa d'être revenu !",
+		"description": "Ayez au moins un jour d'ancienneté sur le serveur",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"unlock": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "lightium:advancements/anciennete/1"
+}

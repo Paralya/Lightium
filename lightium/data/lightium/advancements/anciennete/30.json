@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrel",
+			"nbt": "{CustomModelData:2013005}"
+		},
+		"title": "Tu as l'air d'un mastodonte",
+		"description": "Ayez au moins un mois d'ancienneté sur le serveur",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"unlock": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "lightium:advancements/anciennete/30"
+}

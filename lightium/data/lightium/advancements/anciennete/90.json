@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:command_block",
+			"nbt": "{CustomModelData:2013044}"
+		},
+		"title": "Pense à faire tes devoirs",
+		"description": "Ayez au moins 3 mois d'ancienneté sur le serveur",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"unlock": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "lightium:advancements/anciennete/90"
+}

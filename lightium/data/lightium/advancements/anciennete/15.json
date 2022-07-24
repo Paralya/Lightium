@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:command_block",
+			"nbt": "{CustomModelData:2013003}"
+		},
+		"title": "Tu te plais ici ?",
+		"description": "Ayez au moins 15 jours d'ancienneté sur le serveur",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"unlock": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "lightium:advancements/anciennete/15"
+}

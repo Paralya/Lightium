@@ -8,16 +8,10 @@ scoreboard objectives add lightium.timestamp dummy
 scoreboard objectives add lightium.teleportation dummy
 scoreboard objectives add lightium.position dummy
 scoreboard objectives add lightium.leave minecraft.custom:minecraft.leave_game
-scoreboard objectives add lightium.home.x dummy
-scoreboard objectives add lightium.home.y dummy
-scoreboard objectives add lightium.home.z dummy
-scoreboard objectives add lightium.home.dim dummy
 
 scoreboard objectives add lightium.trigger.help trigger
 scoreboard objectives add lightium.trigger.spawn trigger
 scoreboard objectives add lightium.trigger.merci trigger
-scoreboard objectives add lightium.trigger.sethome trigger
-scoreboard objectives add lightium.trigger.home trigger
 
 scoreboard objectives add lightium.count.merci dummy
 scoreboard objectives add lightium.count.vote dummy

@@ -4,3 +4,4 @@ execute unless score @s lightium.trigger.spawn matches 0 run function lightium:p
 execute unless score @s lightium.trigger.merci matches 0 run function lightium:player/trigger/merci/main
 execute unless score @s lightium.trigger.daily_streak matches 0 run function lightium:player/trigger/daily_streak/main
 execute unless score @s lightium.trigger.anciennete matches 0 run function lightium:player/trigger/anciennete/main
+execute unless score @s lightium.trigger.datapacks matches 0 run function lightium:player/trigger/datapacks/main

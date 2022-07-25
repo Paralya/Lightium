@@ -18,6 +18,7 @@ scoreboard objectives add lightium.trigger.spawn trigger
 scoreboard objectives add lightium.trigger.merci trigger
 scoreboard objectives add lightium.trigger.daily_streak trigger
 scoreboard objectives add lightium.trigger.anciennete trigger
+scoreboard objectives add lightium.trigger.datapacks trigger
 
 scoreboard objectives add lightium.remaining.merci dummy
 scoreboard objectives add lightium.count.merci dummy

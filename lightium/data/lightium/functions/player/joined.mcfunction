@@ -2,6 +2,7 @@
 scoreboard players reset @s lightium.leave
 scoreboard players operation #time lightium.data = seconds lightium.timestamp
 scoreboard players operation #time lightium.data -= @s lightium.timestamp
+scoreboard players add NbReconnexions lightium.stats 1
 
 #timestamp decode
 scoreboard players operation #year lightium.data = #time lightium.data
@@ -54,5 +55,5 @@ execute if score #state lightium.data matches 0 if score #day_count lightium.dat
 execute if score #state lightium.data matches 0 run scoreboard players add @s lightium.last_day 1
 execute if score #state lightium.data matches 0 if score #day_count lightium.data = @s lightium.last_day run scoreboard players set #state lightium.data 2
 execute if score #state lightium.data matches 2 run function lightium:player/trigger/daily_streak/valid
-execute if score #state lightium.data matches 0 run function lightium:player/trigger/daily_streak/break
+execute if score #state lightium.data matches 0 if score @s lightium.daily_streak matches 1.. run function lightium:player/trigger/daily_streak/break
 scoreboard players operation @s lightium.last_day = #day_count lightium.data

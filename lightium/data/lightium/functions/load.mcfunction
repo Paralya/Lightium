@@ -1,6 +1,8 @@
 
 tag Stoupy51 add convention.debug
 
+scoreboard objectives add lightium.stats dummy
+
 scoreboard objectives add lightium.id dummy
 scoreboard objectives add lightium.data dummy
 scoreboard objectives add lightium.first_timestamp dummy
@@ -59,6 +61,7 @@ gamerule spawnRadius 0
 #tellraw @a ["\n",{"nbt":"Paralya","storage":"lightium:main","interpret":true},{"text":" Souhaitez tous la bienvenue à "},{"selector":"@s","color":"aqua"},{"text":" !\nN'oublie pas de remercier le joueur de ton choix de l'invitation pour avoir des récompenses avec /merci"}]
 data modify storage lightium:main ParalyaWarning set value '[{"text":"[ParalyaWarning]","color":"gold"}]'
 data modify storage lightium:main ParalyaError set value '[{"text":"[ParalyaError]","color":"red"}]'
+data modify storage lightium:main ParalyaHelp set value '[{"text":"[","color":"dark_aqua"},{"text":"ParalyaHelp","color":"aqua"},{"text":"]","color":"dark_aqua"}]'
 data modify storage lightium:main Paralya set value '[{"text":"[","color":"dark_aqua"},{"text":"Paralya","color":"aqua"},{"text":"]","color":"dark_aqua"}]'
 
 data modify storage lightium:main CustomItemTicket set value {id:"minecraft:command_block",tag:{display:{Name:'{"extra":[{"text":"Custom Item Ticket"}],"text":""}',Lore:['{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Item utilisé pour les échanges"}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"d\'items venant des data packs"}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"situés aux villageois du spawn"}],"text":""}','{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Lightium"}],"text":""}']}},Count:1b}

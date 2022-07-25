@@ -4,6 +4,7 @@ function lightium:player/teleport_spawn
 scoreboard players add #next_id lightium.id 1
 scoreboard players operation @s lightium.id = #next_id lightium.id
 scoreboard players operation @s lightium.first_timestamp = seconds lightium.timestamp
+scoreboard players add JoueursUniques lightium.stats 1
 
 function lightium:player/trigger/enable
 

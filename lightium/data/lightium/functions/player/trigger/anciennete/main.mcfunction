@@ -1,6 +1,7 @@
 
 scoreboard players set @s lightium.trigger.anciennete 0
 scoreboard players enable @s lightium.trigger.anciennete
+scoreboard players add /anciennete lightium.stats 1
 
 scoreboard players operation #time lightium.data = seconds lightium.timestamp
 scoreboard players operation #time lightium.data -= @s lightium.first_timestamp

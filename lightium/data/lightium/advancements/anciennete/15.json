@@ -11,10 +11,13 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
+	"parent": "lightium:anciennete/7",
 	"criteria": {
-		"unlock": {
+		"requirement": {
 			"trigger": "minecraft:impossible"
 		}
 	},
-	"parent": "lightium:advancements/anciennete/15"
+	"rewards": {
+		"function": "lightium:advancements/anciennete/15"
+	}
 }

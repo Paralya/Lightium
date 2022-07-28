@@ -12,4 +12,5 @@ tellraw @a ["\n",{"nbt":"Paralya","storage":"lightium:main","interpret":true},{"
 scoreboard players add @s lightium.remaining.merci 1
 
 execute as @a at @s run playsound ui.toast.challenge_complete player @s ~ ~ ~ 0.25
+team join lightium.no_grade @s[team=]
 effect clear @s

@@ -68,9 +68,6 @@ data modify storage lightium:main Paralya set value '[{"text":"[","color":"dark_
 data modify storage lightium:main CustomItemTicket set value {id:"minecraft:command_block",tag:{display:{Name:'{"extra":[{"text":"Custom Item Ticket"}],"text":""}',Lore:['{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Item utilisé pour les échanges"}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"d\'items venant des data packs"}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"situés aux villageois du spawn"}],"text":""}','{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Lightium"}],"text":""}']}},Count:1b}
 
 
-##Villagers
-function lightium:villagers/replace
-
 scoreboard players set #-1 lightium.data -1
 scoreboard players set #8 lightium.data 8
 scoreboard players set #9 lightium.data 9

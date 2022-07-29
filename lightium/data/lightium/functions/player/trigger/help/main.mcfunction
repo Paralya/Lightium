@@ -17,7 +17,7 @@ tellraw @s[scores={lightium.trigger.help=-12}] [{"text":" - "},{"text":"/sell : 
 tellraw @s[scores={lightium.trigger.help=-12}] [{"text":" - "},{"text":"/ah : ","color":"yellow"},{"text":"Accéde aux enchères entre joueurs"}]
 
 tellraw @s[scores={lightium.trigger.help=-13}] ["\n",{"nbt":"ParalyaHelp","storage":"lightium:main","interpret":true},{"text":" Page d'aide n°3/5 :"}]
-tellraw @s[scores={lightium.trigger.help=-13}] [{"text":" - "},{"text":"/merci [<id>] : ","color":"yellow"},{"text":"Remercie un joueur de son choix pour des récompenses"}]
+tellraw @s[scores={lightium.trigger.help=-13}] [{"text":" - "},{"text":"/merci [[<id>]] : ","color":"yellow"},{"text":"Remercie un joueur de son choix pour des récompenses"}]
 tellraw @s[scores={lightium.trigger.help=-13}] [{"text":" - "},{"text":"/tpa <player> : ","color":"yellow"},{"text":"Envoie une demande de téléportation sur un joueur"}]
 tellraw @s[scores={lightium.trigger.help=-13}] [{"text":" - "},{"text":"/tpahere <player> : ","color":"yellow"},{"text":"Envoie une demande de téléportation d'un joueur sur soi"}]
 tellraw @s[scores={lightium.trigger.help=-13}] [{"text":" - "},{"text":"/tpyes [<player>] : ","color":"yellow"},{"text":"Accepte la demande de téléportation"}]

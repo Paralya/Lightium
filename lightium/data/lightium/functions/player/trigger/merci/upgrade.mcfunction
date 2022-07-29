@@ -18,5 +18,4 @@ execute if score @s lightium.count.merci matches 8.. run advancement grant @s on
 execute if score @s lightium.count.merci matches 9.. run advancement grant @s only lightium:merci/9
 execute if score @s lightium.count.merci matches 10.. run advancement grant @s only lightium:merci/10
 
-tag @s[tag=lightium.temp] add lightium.merci
 tag @s remove lightium.temp_2

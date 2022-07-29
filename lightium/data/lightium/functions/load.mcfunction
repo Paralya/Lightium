@@ -11,6 +11,8 @@ scoreboard objectives add lightium.teleportation dummy
 scoreboard objectives add lightium.position dummy
 scoreboard objectives add lightium.last_day dummy
 scoreboard objectives add lightium.daily_streak dummy
+scoreboard objectives add lightium.jour_de_parrainage dummy
+scoreboard objectives add lightium.mois_de_parrainage dummy
 scoreboard objectives add lightium.leave minecraft.custom:minecraft.leave_game
 
 scoreboard objectives add lightium.trigger.help trigger

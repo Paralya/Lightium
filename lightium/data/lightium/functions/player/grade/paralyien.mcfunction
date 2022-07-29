@@ -13,5 +13,5 @@ tellraw @s [{"text":" - Possibilité d'avoir 5 homes"}]
 tellraw @s [{"text":" - Vous gagnez l'usage de 5 /merci"}]
 tellraw @s [{"text":" - /kit paralyien (toutes les 24 heures)"}]
 tellraw @s [{"text":" - Double des récompenses journalières"}]
-tellraw @s [{"text":" - Pouvoir parrainer un joueur de son choix pour une semaine tous les mois avec la commande /parrainage <id>, cette personne aura les même avantages que le grade Éclaireur"}]
+tellraw @s [{"text":" - Pouvoir parrainer un joueur de son choix pour une semaine tous les mois avec la commande /parrainage [<id>], cette personne aura les même avantages que le grade Éclaireur"}]
 tellraw @s ""

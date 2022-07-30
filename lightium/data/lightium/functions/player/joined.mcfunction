@@ -48,7 +48,7 @@ execute if score #success lightium.data matches 0 store success score #success l
 scoreboard players operation #day_count lightium.data = seconds lightium.timestamp
 scoreboard players remove #day_count lightium.data 3600
 scoreboard players operation #day_count lightium.data /= #86400 lightium.data
-execute if score @s[team=lightium.parraine] lightium.jour_de_parrainage < #day_count lightium.data run function lightium:player/trigger/parrainage/refresh/filleule
+execute if score @s[team=paralya.parraine] lightium.jour_de_parrainage < #day_count lightium.data run function lightium:player/trigger/parrainage/refresh/filleule
 
 scoreboard players operation #month_count lightium.data = seconds lightium.timestamp
 scoreboard players remove #month_count lightium.data 3600

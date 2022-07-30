@@ -12,7 +12,7 @@ tag @a[predicate=lightium:has_id] add lightium.filleule
 scoreboard players set #error lightium.data 0
 execute if score #error lightium.data matches 0 unless entity @a[tag=lightium.filleule] run scoreboard players set #error lightium.data 1
 execute if score #error lightium.data matches 0 if entity @s[tag=lightium.filleule] run scoreboard players set #error lightium.data 2
-execute if score #error lightium.data matches 0 if entity @a[team=!lightium.no_grade,tag=lightium.filleule] run scoreboard players set #error lightium.data 3
+execute if score #error lightium.data matches 0 if entity @a[team=!paralya.no_grade,tag=lightium.filleule] run scoreboard players set #error lightium.data 3
 
 execute if score #error lightium.data matches 1.. run playsound entity.villager.no ambient @s
 execute if score #error lightium.data matches 1 run tellraw @s [{"nbt":"ParalyaError","storage":"lightium:main","interpret":true},{"text":" Aucun joueur connecté n'a pour identifiant "},{"score":{"name":"#id","objective":"lightium.id"}},{"text":" !"}]

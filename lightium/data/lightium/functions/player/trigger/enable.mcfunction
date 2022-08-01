@@ -5,3 +5,4 @@ scoreboard players enable @s lightium.trigger.merci
 scoreboard players enable @s lightium.trigger.daily_streak
 scoreboard players enable @s lightium.trigger.anciennete
 scoreboard players enable @s lightium.trigger.datapacks
+scoreboard players enable @s lightium.trigger.parrainage

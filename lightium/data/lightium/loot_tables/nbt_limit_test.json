@@ -1,0 +1,28 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:barrier",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"nbt": "NBT",
+								"storage": "lightium:main",
+								"interpret": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{lightium:{nbt_limit_test:1b}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

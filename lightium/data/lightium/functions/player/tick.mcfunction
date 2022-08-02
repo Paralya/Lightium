@@ -10,4 +10,5 @@ execute unless score @s lightium.trigger.datapacks matches 0 run function lighti
 execute unless score @s lightium.trigger.parrainage matches 0 run function lightium:player/trigger/parrainage/main
 
 #Prevent item nbt length ban method
-execute if data entity @s Inventory[{id:"minecraft:shulker_box",tag:{BlockEntityTag:{Items:[{id:"minecraft:written_book"}]}}}] run function lightium:player/item_ban_nbt_limit
+execute if entity @s[tag=lightium.inventory_changed] if data entity @s Inventory[{id:"minecraft:shulker_box",tag:{BlockEntityTag:{Items:[{id:"minecraft:written_book"}]}}}] run function lightium:player/item_ban_nbt_limit
+tag @s[tag=lightium.inventory_changed] remove lightium.inventory_changed

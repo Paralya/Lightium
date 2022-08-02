@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{BlockEntityTag:{}}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "lightium:advancements/inventory_changed"
+	}
+}

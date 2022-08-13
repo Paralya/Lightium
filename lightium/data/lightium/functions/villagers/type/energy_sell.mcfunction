@@ -48,7 +48,7 @@ data modify storage lightium:main Recipe.sell set from block -30000000 14 1610 I
 data modify storage lightium:main Recipe.sell.Count set value 1b
 loot replace block -30000000 14 1610 container.0 loot simplenergy:i/electric_lamp
 data modify storage lightium:main Recipe.buy set from block -30000000 14 1610 Items[0]
-data modify storage lightium:main Recipe.buy.Count set value 12b
+data modify storage lightium:main Recipe.buy.Count set value 24b
 data modify entity @s Offers.Recipes append from storage lightium:main Recipe
 
 #Electric Brewing Stand

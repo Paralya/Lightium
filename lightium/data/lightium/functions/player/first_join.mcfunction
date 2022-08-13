@@ -13,3 +13,11 @@ scoreboard players add @s lightium.remaining.merci 1
 
 execute as @a at @s run playsound ui.toast.challenge_complete player @s ~ ~ ~ 0.25
 effect clear @s
+
+give @s iron_sword
+give @s iron_pickaxe
+give @s iron_axe
+give @s leather_helmet
+give @s leather_chestplate
+give @s leather_leggings
+give @s leather_boots

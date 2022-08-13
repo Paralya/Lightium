@@ -6,5 +6,6 @@ tellraw @a [{"text":"\n","clickEvent":{"action":"open_url","value":"https://para
 execute as @a at @s run playsound entity.player.levelup master @s
 
 team join paralya.eclaireur @s
+scoreboard players add @s lightium.remaining.merci 1
 scoreboard players add GradesEclaireur paralya.stats 1
 

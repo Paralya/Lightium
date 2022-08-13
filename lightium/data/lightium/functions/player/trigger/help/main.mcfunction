@@ -32,6 +32,7 @@ tellraw @s[scores={lightium.trigger.help=-14}] [{"text":" - "},{"text":"/home [<
 
 tellraw @s[scores={lightium.trigger.help=..-15}] ["\n",{"nbt":"ParalyaHelp","storage":"lightium:main","interpret":true},{"text":" Page d'aide n°5/5 :"}]
 tellraw @s[scores={lightium.trigger.help=..-15}] [{"text":"","color":"yellow","clickEvent":{"action":"open_url","value":"https://hellominecraft.fr/guide-factionsbases.html"}},{"text":"À savoir, le plugin faction n'est pour l'instant pas traduit. Pour une explication de celui-ci, veuillez cliquer "},{"text":"[ici]","color":"aqua"},{"text":". Attention, certaines commandes peuvent varier, référez-vous donc au "},{"text":"/f help","color":"aqua"},{"text":" pour bénéficier de plus d'informations."}]
+tellraw @s[scores={lightium.trigger.help=..-15}] [{"text":" - "},{"text":"/f show [<nom>] : ","color":"yellow"},{"text":"Affiche les informations d'une faction"}]
 tellraw @s[scores={lightium.trigger.help=..-15}] [{"text":" - "},{"text":"/f create <nom> : ","color":"yellow"},{"text":"Créer une faction"}]
 tellraw @s[scores={lightium.trigger.help=..-15}] [{"text":" - "},{"text":"/f invite <player> : ","color":"yellow"},{"text":"Invite un joueur dans sa faction"}]
 tellraw @s[scores={lightium.trigger.help=..-15}] [{"text":" - "},{"text":"/f claim : ","color":"yellow"},{"text":"Claim le chunk sur lequel vous vous trouvez à condition d'avoir assez de power"}]

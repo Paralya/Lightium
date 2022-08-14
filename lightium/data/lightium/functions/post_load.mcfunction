@@ -1,5 +1,5 @@
 
-scoreboard players set #second lightium.data 0
+scoreboard players set #second lightium.data -50
 
 tellraw @a[tag=convention.debug] {"text":"[Loaded Lightium v1.0.0]","italic":false,"color":"green"}
 

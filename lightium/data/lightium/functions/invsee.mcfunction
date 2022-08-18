@@ -1,7 +1,4 @@
 
-execute in minecraft:overworld run setblock -1 58 -3 chest[type=left,facing=south]
-execute in minecraft:overworld run setblock 0 58 -3 chest[type=right,facing=south]
-
 data modify storage lightium:main chest set value {1:[],2:[]}
 
 data modify storage lightium:main chest.1 append from entity @s Inventory[0]
@@ -120,3 +117,4 @@ data modify storage lightium:main chest.2[27].Slot set value 27b
 execute in minecraft:overworld run data modify block -1 58 -3 Items set from storage lightium:main chest.1
 execute in minecraft:overworld run data modify block 0 58 -3 Items set from storage lightium:main chest.2
 
+data modify storage lightium:main chest set value {1:[],2:[]}

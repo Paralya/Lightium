@@ -1,5 +1,5 @@
 
-data modify storage lightium:main temp set from storage suso.str:io out.time[-1]
+data modify storage lightium:main temp set from storage suso.str:io out.time[0]
 
 scoreboard players set #value lightium.data 0
 execute if score #value lightium.data matches 0 if data storage lightium:main {temp:"1"} run scoreboard players set #value lightium.data 1
@@ -16,7 +16,7 @@ execute if score #value lightium.data matches 0 if data storage lightium:main {t
 
 scoreboard players operation #value lightium.data *= #multiplier lightium.data
 scoreboard players operation seconds lightium.timestamp += #value lightium.data
-scoreboard players operation #multiplier lightium.data *= #10 lightium.data
+scoreboard players operation #multiplier lightium.data /= #10 lightium.data
 
-data remove storage suso.str:io out.time[-1]
-execute if data storage suso.str:io out.time[0] run function lightium:utils/update_timestamp_loop
+data remove storage suso.str:io out.time[0]
+execute if score #multiplier lightium.data matches 1.. run function lightium:utils/update_timestamp_loop

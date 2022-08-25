@@ -9,9 +9,9 @@ tellraw @s[scores={lightium.trigger.help=-11..}] [{"text":" - "},{"text":"/spawn
 tellraw @s[scores={lightium.trigger.help=-11..}] [{"text":" - "},{"text":"/vote : ","color":"yellow"},{"text":"Lien pour voter pour le serveur"}]
 
 tellraw @s[scores={lightium.trigger.help=-12}] ["\n",{"nbt":"ParalyaHelp","storage":"lightium:main","interpret":true},{"text":" Page d'aide n°2/5 :"}]
-tellraw @s[scores={lightium.trigger.help=-12}] [{"text":" - "},{"text":"/money [<player>] : ","color":"yellow"},{"text":"Créer une faction"}]
-tellraw @s[scores={lightium.trigger.help=-12}] [{"text":" - "},{"text":"/pay <player> : ","color":"yellow"},{"text":"Créer une faction"}]
-tellraw @s[scores={lightium.trigger.help=-12}] [{"text":" - "},{"text":"/moneytop : ","color":"yellow"},{"text":"Créer une faction"}]
+tellraw @s[scores={lightium.trigger.help=-12}] [{"text":" - "},{"text":"/money [<player>] : ","color":"yellow"},{"text":"Affiche votre argent ou celle d'un joueur"}]
+tellraw @s[scores={lightium.trigger.help=-12}] [{"text":" - "},{"text":"/pay <player> <montant> : ","color":"yellow"},{"text":"Paye un joueur de votre choix"}]
+tellraw @s[scores={lightium.trigger.help=-12}] [{"text":" - "},{"text":"/moneytop : ","color":"yellow"},{"text":"Affiche le classement des plus riches joueurs"}]
 tellraw @s[scores={lightium.trigger.help=-12}] [{"text":" - "},{"text":"/shop : ","color":"yellow"},{"text":"Accéde au shop du serveur"}]
 tellraw @s[scores={lightium.trigger.help=-12}] [{"text":" - "},{"text":"/sell : ","color":"yellow"},{"text":"Permet de vendre plus facilement au shop"}]
 tellraw @s[scores={lightium.trigger.help=-12}] [{"text":" - "},{"text":"/ah : ","color":"yellow"},{"text":"Accéde aux enchères entre joueurs"}]
